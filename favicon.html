@@ -5,9 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Práctica HTML</title>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
 </head>
 <body>
     <h1>Íconos en html</h1>
+    <h2>Tablas</h2>
 
+    <table> <!--Etiqueta de tabla-->
+        <colgroup>
+            <col span="1" style="background-color: #95d7c1;">
+        </colgroup>
+
+        <tr> <!--Etiqueta de fila (row)-->
+            <th>Alumnos</th> <!--Etiqueta de table header (encabezado de tabla)-->
+            <th colspan="2">Nombre y Apellido</th> <!--Colspan nos ayuda a 
+            extender horizontalmente-->
+            <th>Notas</th>
+        </tr>
+        <tr>
+            <td>1</td> <!--Etiqueta de table data (información de tabla)-->
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rodrigo</td>
+            <td>González</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Humberto</td>
+            <td rowspan="2">Perez</td> <!--Con rowspan podemos hacer una extensión
+            vertical-->
+            <td>7</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>Cecilia</td>
+            <td>10</td>
+        </tr>
+    </table>
 </body>
 </html>
