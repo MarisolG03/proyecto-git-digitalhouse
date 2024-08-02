@@ -1,0 +1,3 @@
+Crear una rama: git chekout -b nobre de la rama
+Actualizar rama en github: git push origin nombre de la rama
+Morver un archivo de una rama a otra: git checkout nombre de la rama -- nombre del archivo
