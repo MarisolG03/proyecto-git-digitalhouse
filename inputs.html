@@ -43,5 +43,58 @@
 
     </form>
     
+
+    <h1>Atributos de input</h1>
+    <form method="get">
+    <label for="name">Escribe tu nombre</label>
+    <input type="text" name="name" id="name" value="Marisol" disabled size="5">
+    <br>
+    <input type="submit" value="Enviar">
+<br>
+<br>
+    <label for="name">Escribe tu nombre</label>
+    <input type="text" name="name" id="name" minlength="5" maxlength="7">
+    <br>
+    <input type="submit" value="Enviar">
+<br>
+<br>
+    <label for="number">Escribe un número</label>
+    <input type="text" name="number" id="number" min="1" max="10">
+    <br>
+    <input type="submit" value="Enviar">
+<br>
+<br>
+    <label for="date">Escribe una fecha entre 1900 y la fecha actual</label>
+    <input type="date" name="date" id="date" min="1900-01-01 max" max="2024-08-05">
+    <br>
+    <input type="submit" value="Enviar">
+<br>
+<br>
+    <label for="range">Selecciona un número</label>
+    <input type="range" name="range" id="range" min="1" max="5">
+    <br>
+    <input type="submit" value="Enviar">
+<br>
+<br>
+    <label for="file">Selecciona varios archivo</label>
+    <input type="file" name="file" id="file" multiple>
+    <br>
+    <input type="submit" value="Enviar">
+<br>
+<br>
+    <label for="code">Escribe el código del país</label>
+    <input type="text" name="code" id="code" pattern="[A-Z]{3}">
+    <br>
+    <input type="submit" value="Enviar">
+<br>
+<br>
+
+    <input type="text" name="name" id="name" placeholder="Escribe tu nombre" required autocomplete="off"><br>
+    <input type="text" name="last name" id="last name" placeholder="Escribe tu apellido" required autocomplete="off"><br>
+    <input type="text" name="job" id="job" placeholder="Escribe tu trabajo" autofocus>
+    <br>
+    <input type="submit" value="Enviar">
+
+    </form>
 </body>
 </html>
