@@ -1,0 +1,28 @@
+h1{
+    background-color: rgb(205, 152, 255);
+    color: rgb(95, 19, 165);
+}
+
+#titulo-principal {
+    color: rgb(114, 8, 213);
+}
+
+.azul {
+    color: rgb(10, 10, 198);
+}
+
+p.azul {
+    text-align: center;
+}
+
+.fondo-verde{
+    background-color: rgb(141, 221, 177);
+}
+
+
+p,h3 {
+    color: rgb(176, 29, 171);
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
