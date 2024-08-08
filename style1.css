@@ -10,22 +10,74 @@ div{
     width: 150px;
     height: 80px;
     border: 2px solid rgb(70, 120, 91);
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
 }
+
+
+/* Para unificar todos los elementos 
+div{ 
+    background-color: aquamarine;
+    width: 150px;
+    height: 80px;
+    border: 2px solid rgb(70, 120, 91);
+    padding: 20px;
+    margin: 20px;
+    text-decoration: overline rgb(66, 66, 138) 1px
+}*/
 
 .overline{
     text-decoration-line: overline;
+    text-decoration-color: rgb(66, 66, 138);
+}
+
+ Esta es una forma corta de hacerlo 
+.overline{
+    text-decoration: overline rgb(66, 66, 138) 2px;
 }
 
 .line-through{
     text-decoration-line: line-through;
+    text-decoration-thickness: 5px;
 }
 
 .underline{
     text-decoration-line: underline;
+    text-decoration-style: wavy;
 }
+
+
+.mix {
+    color:hsl(246, 90%, 64%);
+    text-decoration-line: underline overline;
+}
+
+/* Los estilos que puede tomar son:
+solid, double, dotted, dashed, wavy */
 
 h2{
     color:hsl(246, 90%, 64%);
     text-align: center;
+} 
+
+
+div{
+    background-color: aquamarine;
+    width: 150px;
+    height: 80px;
+    border: 2px solid rgb(70, 120, 91);
+    padding: 20px;
+    margin: 20px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
 }
