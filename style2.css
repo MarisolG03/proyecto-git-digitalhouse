@@ -1,4 +1,4 @@
-
+/* Este es el diseño de spacing.html */
 div {
     background-color: rgb(250, 255, 210);
     width: 500px;
@@ -13,4 +13,24 @@ p {
     letter-spacing: 1.5px;
     line-height: 1.5; /*esto es en formato factor 1 es a 100%*/
     word-spacing: 3px;
+
+    /* Horizontal, vertical y difuminado */
+    text-shadow: 2px 2px 2px rgb(189, 185, 158);
+}
+
+
+.serif{
+font-family: 'Times New Roman', Times, serif;
+}
+.sans-serif{
+font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+.monospace{
+font-family: 'Courier New', Courier, monospace;
+}
+.cursive{
+font-family: 'lucida handwriting', cursive;
+}
+.fantasy{
+font-family: 'copperplate', fantasy;
 }
