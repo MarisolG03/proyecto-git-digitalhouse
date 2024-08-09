@@ -13,11 +13,17 @@ p {
     letter-spacing: 1.5px;
     line-height: 1.5; /*esto es en formato factor 1 es a 100%*/
     word-spacing: 3px;
+    font-family: 'Roboto Serif', serif;
 
     /* Horizontal, vertical y difuminado */
     text-shadow: 2px 2px 2px rgb(189, 185, 158);
 }
 
+
+
+h4{
+    font-size: 2vw;
+}
 
 .serif{
 font-family: 'Times New Roman', Times, serif;
@@ -33,4 +39,20 @@ font-family: 'lucida handwriting', cursive;
 }
 .fantasy{
 font-family: 'copperplate', fantasy;
+}
+
+.style{
+    font-style: italic;   
+}
+.weight{
+    font-weight: lighter;
+}
+.variant{
+    font-variant: small-caps;
+}
+
+
+
+h3{
+    font: italic small-caps 3vw Arial, san-serif ;
 }
