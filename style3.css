@@ -1,0 +1,90 @@
+body{
+   
+    background-image: url(carpeta-interna/photo-1501630834273-4b5604d2ee31.jpg) ;
+    /*background-repeat: repeat-x; se repite la imagen en el eje x
+    background-repeat: repeat-y; se repite la imagen en el eje y
+    background-attachment; (scroll), (Fixed); scroll es para que la imagen se quede fija al darscroll
+    y fixed es para que siga bajando junto con el scroll*/
+    background-size: cover;
+}
+    
+/*  background-image: url(carpeta-interna/photo-1501630834273-4b5604d2ee31.jpg);
+    background-color: rgb(200, 166, 222);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment; fixed;
+    
+    Simplificado:
+    background: #c8a6de url() no repeat right top*/
+
+
+p{
+    background-color: #c8a6de;
+    /*opacity: .5;*/
+
+}
+
+table,th,td{
+    border: 1px solid purple;
+    
+}
+
+th,td{
+    text-align: center;
+    padding: 15px;
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(219, 173, 219);
+}
+
+tr:hover{
+    background-color: rgb(152, 101, 152);
+}
+
+
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px;
+
+}
+
+th{
+    color: azure;
+    background-color: rgb(47, 19, 74);
+    height: 50px;
+    
+}
+
+td{
+    height: 40px;
+    vertical-align: middle;
+}
+
+/* COLORES*/
+/* Color names: 140 tipos de nombres en CSS */
+h2{
+    color: brown;
+}
+
+/* Colores rgb */
+h4{
+    color: rgb(79, 22, 110);
+    background-color: rgba(150, 0, 255, 0.3); /*a de alpha que es la transparencia*/
+}
+
+/* Colores con código hexagesimal */
+h3{
+    color: #006d82;
+    background-color: #ff565392;
+}
+
+/* Colores HLS */
+h5{
+    color: hsl(50, 90%, 20%,);
+    background-color: hsl(80, 20%, 70%);
+}
+
