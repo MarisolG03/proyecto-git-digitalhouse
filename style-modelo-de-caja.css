@@ -1,0 +1,111 @@
+div{
+    border-width: 10px;
+    border-color: blueviolet;
+    border-radius: 20px;
+}
+
+
+.solid{
+   
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(127, 199, 18)
+}
+.dotted{
+   
+    width: 200px;
+    height: 50px;
+    border: 5px dotted rgb(69, 69, 181);
+}
+.dashed{
+   
+    width: 200px;
+    height: 50px;
+    border-style: dashed;
+}
+.double{
+   
+    width: 200px;
+    height: 50px;
+    border-style: double;
+}
+.groove{
+   
+    width: 200px;
+    height: 50px;
+    border-style: groove;
+}
+.hidden{
+   
+    width: 200px;
+    height: 50px;
+    border-style: hidden;
+}
+.inset{
+   
+    width: 200px;
+    height: 50px;
+    border-style: inset;
+}
+.outset{
+   
+    width: 200px;
+    height: 50px;
+    border-style: outset;
+}
+.ridge{
+   
+    width: 200px;
+    height: 50px;
+    border-style: ridge;
+}
+.none{
+   
+    width: 200px;
+    height: 50px;
+    border-style: none;
+}
+.mix{
+   
+    width: 200px;
+    height: 50px;
+    border-style: dotted dashed solid double;
+}
+
+p{
+    text-align: center;
+}
+
+.cajita{
+   
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(189, 128, 246);
+/*  margin-bottom: 10px;
+    margin-left: 30px;*/
+    margin: 50px 50px; /*se maneja en sentido horario
+                                si ponemos un valor afecta a los 4 lados,
+                                si ponemos 2 valores afecta horiz y vert,
+                                si ponemos 3 valores afecta arriba, abajo, horizontal*/
+}
+.cajita2{
+   
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(128, 175, 246);
+/*    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;*/
+    margin: 50px 50px;
+}
+
+ /*.contenedor2{
+    background-color: rgb(20, 151, 13);
+    max-width: 300px;
+    max-height: 100px;
+     min-width
+       min-height */
