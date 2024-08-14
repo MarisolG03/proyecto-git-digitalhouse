@@ -9,13 +9,21 @@ div{
    
     width: 200px;
     height: 50px;
-    border: 2px solid rgb(127, 199, 18)
+    border: 2px solid rgb(127, 199, 18);
+    padding: 10px;
+    margin: 10px;
+    outline: 2px dotted palevioletred;
+    outline-offset: 15px;
 }
 .dotted{
    
     width: 200px;
     height: 50px;
     border: 5px dotted rgb(69, 69, 181);
+    padding: 10px;
+    margin: 10px;
+    outline: 2px solid palevioletred;
+    outline-offset: 15px;
 }
 .dashed{
    
@@ -74,6 +82,7 @@ div{
 
 p{
     text-align: center;
+   
 }
 
 .cajita{
@@ -85,10 +94,12 @@ p{
     background-color: rgb(189, 128, 246);
 /*  margin-bottom: 10px;
     margin-left: 30px;*/
-    margin: 50px 50px; /*se maneja en sentido horario
-                                si ponemos un valor afecta a los 4 lados,
+    margin: 5px; /*se maneja en sentido horario
+                                si ponemos un valor afecta a los 4 lados (5px 5px 5px 5px),
                                 si ponemos 2 valores afecta horiz y vert,
                                 si ponemos 3 valores afecta arriba, abajo, horizontal*/
+    padding: 5px; /* se pueden definir de forma indiv padding-top: 10px; padding-right: 20px;*/
+
 }
 .cajita2{
    
@@ -100,8 +111,10 @@ p{
 /*    margin-top: 10px;
     margin-left: 30px;
     margin-bottom: 30px;*/
-    margin: 50px 50px;
+    margin: 5px;
+    padding: 5px;
 }
+
 
  /*.contenedor2{
     background-color: rgb(20, 151, 13);
