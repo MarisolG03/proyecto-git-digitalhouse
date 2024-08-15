@@ -1,3 +1,4 @@
+/*
 .container{
     background-color: black;
     display: flex;
@@ -35,7 +36,7 @@
     padding: 15px;
     margin: 15px;
 }
-/* .span-rojo{ 
+ .span-rojo{ 
     background-color: red;
     border: 1px solid black;
     padding: 15px;
@@ -53,4 +54,64 @@
     width: 100px;
     height: 100px;
     display: block;
-}*/
+}
+
+.max{
+    margin: auto;
+    border: 2px solid black;
+    background-color: azure;
+    max-width: 500px;
+}
+.width{
+    margin: auto;
+    border: 2px solid black;
+    background-color: azure;
+    width: 500px;
+}
+
+.hidden{
+    display: none;
+    /*visibility: hidden; Mantiene el espacio que tiene el elemento
+}
+
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+
+}
+
+div{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    max-width: 80%;
+}
+
+#position{
+   position:sticky; /*Mantiene la posición, al scrolear se mantiene pegado al borde superior de la página
+   position: fixed;   /*Se mantiene la posición indicada con "top, left, etc", al scrolear también mantiene su posición
+   position: absolute; /*Se mantiene en una posición absoluta en el espacio ya sea indicada o no
+   position: relative; /*Se mantiene en el lugar predeterminado, y se posiciona tomando como referencia su posición inicial, se mantiene independientemente del scrole
+    background-color: rgb(130, 130, 235);
+    color: red;
+}
+*/
+
+img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 500px;
+}
+
+h1, h2, h3{
+color:aliceblue;
+
+}
+
+body{
+    background-color: rgb(75, 46, 103);
+}
