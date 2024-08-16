@@ -79,6 +79,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 3px;
     word-spacing: 3px;
+    color: azure;
 
 }
 
@@ -99,12 +100,36 @@ div{
 }
 */
 
+.nav{
+    background-color: rgb(191, 140, 233);
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
 img{
     position: absolute;
     left: 0;
     top: 0;
+    float: inherit;
     z-index: -1;
     width: 500px;
+     /* 
+    margin: 50px auto;
+    display: block;*/
 }
 
 h1, h2, h3{
@@ -114,4 +139,31 @@ color:aliceblue;
 
 body{
     background-color: rgb(75, 46, 103);
+}
+
+/*¿Cómo centrar un div y no ser parte del meme?*/
+.center{
+    border: 1px solid azure;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    color: azure;
+    background-color: rgb(127, 11, 236);
+    overflow-x: scroll;
+    overflow-wrap: normal;
+    text-align: center;
+}
+.float{
+    border: 1px solid azure;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    color: azure;
+    background-color: rgb(127, 11, 236);
+    text-align: center;
+    overflow: scroll;
 }
