@@ -56,3 +56,34 @@ font-family: 'copperplate', fantasy;
 h3{
     font: italic small-caps 3vw Arial, san-serif ;
 }
+
+
+ul.desordenada {
+    list-style-image: url(carpeta-interna/icons8-estrella-100.png);
+    list-style-position: inside;
+}
+
+/* ul.ordenada{
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+ } */
+
+ Esto se verá como si no fuera una lista en el navegador
+
+ol.ordenada {
+    list-style-type: upper-roman;
+}
+
+
+ul{
+    background-color: blue;
+    margin: 20px;
+    padding: 10px 0;
+}
+
+ul li{
+    background-color: rgb(204, 149, 255);
+    padding: 10px;
+    margin: 5px;
+}
