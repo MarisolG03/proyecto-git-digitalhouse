@@ -1,3 +1,43 @@
+.parrafo{
+color: greenyellow;
+}
+
+#paragraph{
+color: blue; /*id es el más específico, osea es el que más tiene jerarquía. En general, lo último que se considera es lo último que se pisa (escribe)*/
+}
+
+p{
+    color: rgb(0, 0, 0) /*!important se pone ante todo, es una mala práctica*/;
+}
+
+
+
+p#medida{
+    font-size: 1em; /*hace referencia al padre
+    /* line-height: 80px;*/
+} 
+div.caja-externa{
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: rgb(222, 187, 255);
+
+    width: 50vw;
+    height: 50vh;
+}
+
+div.caja-interna{
+    border: 1px solid black;
+    background-color: rgb(218, 173, 106);
+    width: 50%;
+    height: 50%;
+}
+span#medid{
+    font-size: 1.5em;
+}
+
+
+
+
 /* selector[atributo]{
     propiedad: valor;
 } */
